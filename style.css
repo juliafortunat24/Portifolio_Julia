@@ -1,4 +1,4 @@
-/* Reset */
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -14,7 +14,6 @@ a {
   color: inherit;
 }
 
-/* Cabeçalho */
 header {
   background: linear-gradient(135deg, #9363d1, #b284da);
   color: white;
@@ -98,6 +97,11 @@ main p.subtitle {
   display: flex;
   flex-direction: column;
   position: relative;
+}
+
+.project-card:hover {
+  box-shadow: 0 0 20px 5px rgba(117, 81, 175, 0.7); 
+  transform: translateY(-5px); 
 }
 .project-top {
   display: flex;
